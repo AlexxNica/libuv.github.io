@@ -35,7 +35,7 @@ task.
     # Change the branch to master
     git checkout master
     # Copy the generated files over
-    cp -r dist/* .
+    cp -r out/* .
     # Commit the result
     git commit -a -m "Update"
     # Push!
